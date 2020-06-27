@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Elements task</title>
+</head>
+
+<body bgcolor="AliceBlue">
+<h2>Form elements Task:</h2>
+<h3>Fill the details </h3>
+
+<form action="Thank_you.html">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last  Name:</label>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="phone">Phone Num:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+    <p>Format :0123456789</p><br>
+
+    <h3>Program:</h3>
+    <input type="radio" id="pgm" name="gen">
+    <label for="pgm" value="Bachelors" checked="false">Bachelors</label>
+    <input type="radio" id="pgm" name="gen">
+    <label for="pgm" value="Masters">Masters</label><br><br>
+
+    <h3>Description:</h3>
+    <textarea name="description" rows="10" cols="60">Write something in the box.</textarea><br><br>
+    <h3>Select courses you like:</h3>
+    <input type="checkbox" id="sub1" name="sub1">
+    <label for="sub1">Electronics and Communication Engineering(ECE)</label><br>
+    <input type="checkbox" id="sub2" name="sub2">
+    <label for="sub2">Computer Science Engineering(CSE)</label><br>
+    <input type="checkbox" id="sub3" name="sub3">
+    <label for="sub3">Electrical and ELectronics Engineering(EEE)</label><br>
+    <input type="checkbox" id="sub4" name="sub4">
+    <label for="sub4">Mechanical Engineering(MECH)</label><br>
+    <input type="checkbox" id="sub5" name="sub5">
+    <label for="sub5">Civil Engineering(CE)</label><br>
+    <input type="checkbox" id="sub6" name="sub6">
+    <label for="sub6">Agricultural Engineering(AGRI)</label><br><br>
+    <input type="submit">
+    <input type="reset">
+
+ </form>
+</body>
+</html>
